@@ -1,9 +1,15 @@
-import Image from "next/image";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Experience from "./components/About";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen text-red-400">
-      <h1 className="text-4xl font-bold">Hello World</h1>
-    </div>
+    <>
+      <Hero />
+      <Projects />
+      <Experience />
+      <Footer />
+    </>
   );
 }

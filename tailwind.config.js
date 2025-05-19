@@ -9,11 +9,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        taupe: '#958595',
-        graphite: '#525254',
-        dark: '#363636',
-        ebony: '#242323',
-        bronze: '#795298',
+        beige: "#AEA7A3",
+        brown: "#795238",
+        charcoal: "#242323",
+        dark: "#363636",
+        grayish: "#525254",
+        lightgray: "#959595",
       },
     },
   },
